@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
  
 AUTH = 'brd-customer-hl_29454674-zone-ai_scraper:jtrzxe76kv15'
 SBR_WEBDRIVER = f'https://{AUTH}@brd.superproxy.io:9515'
+
 def scrape_website(website):
     """"""
     print("Lunching chrome browser...")
